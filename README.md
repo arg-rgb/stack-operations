@@ -18,7 +18,7 @@ A comprehensive stack data structure implementation in C programming language us
 - [Compilation Instructions](#compilation-instructions)
 - [Author](#author)
 
-## 🔍 Overview
+## Overview
 
 This project implements a **dynamic stack** data structure in C using pointers and dynamic memory allocation. Unlike traditional fixed-size array implementations, this stack can grow and shrink at runtime based on user requirements. The implementation follows the **Last In, First Out (LIFO)** principle and provides a menu-driven interface for easy interaction.
 
@@ -29,7 +29,7 @@ This project implements a **dynamic stack** data structure in C using pointers a
 - **Automatic Capacity Expansion**: Handles stack overflow by resizing
 - **Comprehensive Error Handling**: Robust underflow and overflow detection
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 - ✅ **Dynamic Stack Creation** with user-defined initial capacity
@@ -44,7 +44,7 @@ This project implements a **dynamic stack** data structure in C using pointers a
 - 📊 **Visual Feedback**: Clear display of stack state and operations
 - ⚡ **Efficient Implementation**: Pointer-based for optimal performance
 
-## 📚 Stack Data Structure
+## Stack Data Structure
 
 ### What is a Stack?
 
@@ -63,7 +63,7 @@ A **stack** is a linear data structure that follows the **Last In, First Out (LI
 - **Single Access Point**: All operations occur at the top
 - **Dynamic Size**: Can grow or shrink during runtime (in this implementation)
 
-## 🔧 Stack Operations
+## Stack Operations
 
 ### 1. Push Operation
 **Purpose**: Adds a new element to the top of the stack
@@ -104,7 +104,7 @@ A **stack** is a linear data structure that follows the **Last In, First Out (LI
 **Time Complexity**: O(n) where n is number of elements
 **Space Complexity**: O(1)
 
-## 🎯 Applications of Stack
+## Applications of Stack
 
 Stacks are fundamental data structures with numerous real-world applications:
 
@@ -143,7 +143,7 @@ Stacks are fundamental data structures with numerous real-world applications:
 - **Interrupt Handling**: Handling system interrupts
 - **Context Switching**: Saving and restoring process contexts
 
-## 🔗 Pointer Implementation Details
+## Pointer Implementation Details
 
 This implementation extensively uses **C pointers** for several advantages:
 
@@ -175,7 +175,7 @@ int *temp = (int *)realloc(*stack, newSize * sizeof(int));
 - **Pointer Arithmetic**: Navigating through memory
 - **Double Pointers (**)**: Modifying pointer values in functions
 
-## 💻 Installation and Usage
+## Installation and Usage
 
 ### Prerequisites
 - GCC Compiler (GNU Compiler Collection)
@@ -196,7 +196,7 @@ Menu:
 4 for exit    - Terminate program
 ```
 
-## 🏗️ Code Structure
+## Code Structure
 
 ### File Organization
 ```
@@ -237,7 +237,7 @@ void display(int *stack, int *top)
 - **Features**: Complete stack visualization, position tracking
 - **Return**: None (displays stack contents)
 
-## 🧠 Memory Management
+## Memory Management
 
 ### Dynamic Allocation Strategy
 The implementation uses sophisticated memory management:
@@ -270,7 +270,7 @@ if (stack != NULL) free(stack);
 - **Proper Deallocation**: Prevents memory leaks
 - **Reallocation Safety**: Uses temporary pointer to avoid data loss
 
-## ⚠️ Error Handling
+## Error Handling
 
 ### Stack Overflow Protection
 - Detects when stack reaches maximum capacity
@@ -290,7 +290,7 @@ if (stack != NULL) free(stack);
 - Provides user feedback for memory issues
 - Ensures program doesn't crash on memory errors
 
-## 📖 Example Usage
+## Example Usage
 
 ### Sample Session
 ```
@@ -339,7 +339,7 @@ Enter your choice : 4
 Exiting program. Goodbye!
 ```
 
-## 🔧 Compilation Instructions
+## Compilation Instructions
 
 ### Using GCC (Recommended)
 ```bash
@@ -365,14 +365,14 @@ gcc -O2 -o stack stack.c
 ./stack
 ```
 
-## 📧 Author
+## Author
 
 **Argha Ghosh**  
 📧 Email: [tojog75@gmail.com](mailto:tojog75@gmail.com)
 
 ---
 
-### 📝 Additional Notes
+### Additional Notes
 
 This implementation serves as an excellent educational resource for understanding:
 - Dynamic memory allocation in C
