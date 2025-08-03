@@ -203,7 +203,6 @@ Menu:
 📁 Project Root
 ├── 📄 stack.c          # Main source code
 ├── 📄 README.md        # This documentation
-└── 📄 executable       # Compiled program
 ```
 
 ### Function Breakdown
